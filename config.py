@@ -43,7 +43,7 @@ SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Truckresmi")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Truckresmi")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AgBpPsq9ByrcawJ1WpKdC4nt0Md06Tj8JNJfYvUKX97d1oIhQlNvYga5tVkV6CtFH9tcS27h8kPNscYS53qpi5VesL0go-E_DHzQz-B9S0wXYhMtRLhddQQw6SxpD9NK85_1o7v83Uwm2vRFMaom19nT0sikfamFxY7XiwNcg7d3H4NsLjo4lkjgFufpyqs5_nSCKyzMG5VZkSuQXOBgYHX_u2GhdnshymarJ5vecbtlojE5vP7gK7dl-RMMGelyPApO6IcbCg1mMRypC1Hdf2qCgPpd5MiBVpK5kgcXw0gGxQALoZE5UZimgfQwUQNQEYh90Z1wNW7WPymvF_EC6eG6AAAAAY-569IA", False))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("AgBpPsq9ByrcawJ1WpKdC4nt0Md06Tj8JNJfYvUKX97d1oIhQlNvYga5tVkV6CtFH9tcS27h8kPNscYS53qpi5VesL0go-E_DHzQz-B9S0wXYhMtRLhddQQw6SxpD9NK85_1o7v83Uwm2vRFMaom19nT0sikfamFxY7XiwNcg7d3H4NsLjo4lkjgFufpyqs5_nSCKyzMG5VZkSuQXOBgYHX_u2GhdnshymarJ5vecbtlojE5vP7gK7dl-RMMGelyPApO6IcbCg1mMRypC1Hdf2qCgPpd5MiBVpK5kgcXw0gGxQALoZE5UZimgfQwUQNQEYh90Z1wNW7WPymvF_EC6eG6AAAAAY-569IA", None)
+STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
