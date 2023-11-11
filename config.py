@@ -14,12 +14,12 @@ API_HASH = getenv("API_HASH", "b13c2392d55ae8a4800d3b4ed40bffb2")
 BOT_TOKEN = getenv("BOT_TOKEN", "6734332445:AAF0RrErwWBE-W4b7hppBVf3gMOirwDQoOg")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("mongodb+srv://Ferid2005:ferid200518@cluster0.xxepf7q.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Ferid2005:ferid200518@cluster0.xxepf7q.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp" None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("-1001913460066", None))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001913460066" None))
 
 # Get this value from @FallenxBot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", "5898049921"))
@@ -43,7 +43,7 @@ SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Truckresmi")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Truckresmi")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AgBpPsq9ByrcawJ1WpKdC4nt0Md06Tj8JNJfYvUKX97d1oIhQlNvYga5tVkV6CtFH9tcS27h8kPNscYS53qpi5VesL0go-E_DHzQz-B9S0wXYhMtRLhddQQw6SxpD9NK85_1o7v83Uwm2vRFMaom19nT0sikfamFxY7XiwNcg7d3H4NsLjo4lkjgFufpyqs5_nSCKyzMG5VZkSuQXOBgYHX_u2GhdnshymarJ5vecbtlojE5vP7gK7dl-RMMGelyPApO6IcbCg1mMRypC1Hdf2qCgPpd5MiBVpK5kgcXw0gGxQALoZE5UZimgfQwUQNQEYh90Z1wNW7WPymvF_EC6eG6AAAAAY-569IA", False))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", "AgBpPsq9ByrcawJ1WpKdC4nt0Md06Tj8JNJfYvUKX97d1oIhQlNvYga5tVkV6CtFH9tcS27h8kPNscYS53qpi5VesL0go-E_DHzQz-B9S0wXYhMtRLhddQQw6SxpD9NK85_1o7v83Uwm2vRFMaom19nT0sikfamFxY7XiwNcg7d3H4NsLjo4lkjgFufpyqs5_nSCKyzMG5VZkSuQXOBgYHX_u2GhdnshymarJ5vecbtlojE5vP7gK7dl-RMMGelyPApO6IcbCg1mMRypC1Hdf2qCgPpd5MiBVpK5kgcXw0gGxQALoZE5UZimgfQwUQNQEYh90Z1wNW7WPymvF_EC6eG6AAAAAY-569IA" False))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
