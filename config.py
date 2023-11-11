@@ -43,7 +43,7 @@ SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Truckresmi")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Truckresmi")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", "AgBpPsq9ByrcawJ1WpKdC4nt0Md06Tj8JNJfYvUKX97d1oIhQlNvYga5tVkV6CtFH9tcS27h8kPNscYS53qpi5VesL0go-E_DHzQz-B9S0wXYhMtRLhddQQw6SxpD9NK85_1o7v83Uwm2vRFMaom19nT0sikfamFxY7XiwNcg7d3H4NsLjo4lkjgFufpyqs5_nSCKyzMG5VZkSuQXOBgYHX_u2GhdnshymarJ5vecbtlojE5vP7gK7dl-RMMGelyPApO6IcbCg1mMRypC1Hdf2qCgPpd5MiBVpK5kgcXw0gGxQALoZE5UZimgfQwUQNQEYh90Z1wNW7WPymvF_EC6eG6AAAAAY-569IA" False))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", "AgBpPsq9ByrcawJ1WpKdC4nt0Md06Tj8JNJfYvUKX97d1oIhQlNvYga5tVkV6CtFH9tcS27h8kPNscYS53qpi5VesL0go-E_DHzQz-B9S0wXYhMtRLhddQQw6SxpD9NK85_1o7v83Uwm2vRFMaom19nT0sikfamFxY7XiwNcg7d3H4NsLjo4lkjgFufpyqs5_nSCKyzMG5VZkSuQXOBgYHX_u2GhdnshymarJ5vecbtlojE5vP7gK7dl-RMMGelyPApO6IcbCg1mMRypC1Hdf2qCgPpd5MiBVpK5kgcXw0gGxQALoZE5UZimgfQwUQNQEYh90Z1wNW7WPymvF_EC6eG6AAAAAY-569IA"))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
