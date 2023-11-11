@@ -14,7 +14,7 @@ API_HASH = getenv("API_HASH", "b13c2392d55ae8a4800d3b4ed40bffb2")
 BOT_TOKEN = getenv("BOT_TOKEN", "6734332445:AAF0RrErwWBE-W4b7hppBVf3gMOirwDQoOg")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Ferid2005:ferid200518@cluster0.xxepf7q.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp" None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Ferid2005:ferid200518@cluster0.xxepf7q.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
